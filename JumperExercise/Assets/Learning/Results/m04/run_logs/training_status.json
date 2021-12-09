@@ -1,0 +1,47 @@
+{
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.10.0"
+    },
+    "Mover": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\m04\\Mover\\Mover-0.onnx",
+                "reward": null,
+                "creation_time": 1638132402.7821386,
+                "auxillary_file_paths": [
+                    "results\\m04\\Mover\\Mover-0.pt"
+                ]
+            },
+            {
+                "steps": 4379,
+                "file_path": "results\\m04\\Mover\\Mover-4379.onnx",
+                "reward": null,
+                "creation_time": 1638132533.4877617,
+                "auxillary_file_paths": [
+                    "results\\m04\\Mover\\Mover-4379.pt"
+                ]
+            },
+            {
+                "steps": 125513,
+                "file_path": "results\\m04\\Mover\\Mover-125513.onnx",
+                "reward": -0.5333333313465118,
+                "creation_time": 1638133173.3108964,
+                "auxillary_file_paths": [
+                    "results\\m04\\Mover\\Mover-125513.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 125513,
+            "file_path": "results\\m04\\Mover.onnx",
+            "reward": -0.5333333313465118,
+            "creation_time": 1638133173.3108964,
+            "auxillary_file_paths": [
+                "results\\m04\\Mover\\Mover-125513.pt"
+            ]
+        }
+    }
+}

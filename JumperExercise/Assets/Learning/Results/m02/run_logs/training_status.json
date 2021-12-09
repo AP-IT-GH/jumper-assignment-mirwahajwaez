@@ -1,0 +1,65 @@
+{
+    "Mover": {
+        "checkpoints": [
+            {
+                "steps": 102162,
+                "file_path": "results\\m02\\Mover\\Mover-102162.onnx",
+                "reward": -0.17499999701976776,
+                "creation_time": 1638129952.2732067,
+                "auxillary_file_paths": [
+                    "results\\m02\\Mover\\Mover-102162.pt"
+                ]
+            },
+            {
+                "steps": 103694,
+                "file_path": "results\\m02\\Mover\\Mover-103694.onnx",
+                "reward": 1.380000001192093,
+                "creation_time": 1638130064.7894392,
+                "auxillary_file_paths": [
+                    "results\\m02\\Mover\\Mover-103694.pt"
+                ]
+            },
+            {
+                "steps": 246051,
+                "file_path": "results\\m02\\Mover\\Mover-246051.onnx",
+                "reward": null,
+                "creation_time": 1638172687.6515965,
+                "auxillary_file_paths": [
+                    "results\\m02\\Mover\\Mover-246051.pt"
+                ]
+            },
+            {
+                "steps": 320040,
+                "file_path": "results\\m02\\Mover\\Mover-320040.onnx",
+                "reward": -0.5,
+                "creation_time": 1638173019.675727,
+                "auxillary_file_paths": [
+                    "results\\m02\\Mover\\Mover-320040.pt"
+                ]
+            },
+            {
+                "steps": 458672,
+                "file_path": "results\\m02\\Mover\\Mover-458672.onnx",
+                "reward": 0.9888888912068473,
+                "creation_time": 1638173620.4438329,
+                "auxillary_file_paths": [
+                    "results\\m02\\Mover\\Mover-458672.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 458672,
+            "file_path": "results\\m02\\Mover.onnx",
+            "reward": 0.9888888912068473,
+            "creation_time": 1638173620.4438329,
+            "auxillary_file_paths": [
+                "results\\m02\\Mover\\Mover-458672.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.10.0"
+    }
+}
