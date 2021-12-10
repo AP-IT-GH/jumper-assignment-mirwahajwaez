@@ -36,5 +36,9 @@ Daarna ga je in de hierarchie de environment game object veranderen naar "Jumper
 In de JumperEnvironment veranderen we de script "EnvironmentJumper.cs", dubbelklik op "EnvironmentJumper.cs" en open dat in Visual Studio
 ![](Screenshots/DubbelklikEnvironmentJumperCs.png)
 
+![](Screenshots/EnvironmentJumper01.png)
+
+![](Screenshots/EnvironmentJumper02.png)
+
 
 
