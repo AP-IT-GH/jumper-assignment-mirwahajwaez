@@ -51,7 +51,7 @@ if (result == 0)
 ```
 ![](Screenshots/EnvironmentJumper01.png)
 
-- Dupliceer deze methode "public void SpawnObstacle()" en verander de eerste naar "public void SpawnBadObstacle()" en de tweede naar "public void SpawnGoodObstacle()".
+- Dupliceer deze methode "public void SpawnObstacle()" en verander het eerste naar "public void SpawnBadObstacle()" en de tweede naar "public void SpawnGoodObstacle()".
 - Verander ook de velden binnen deze functies naar de gepaste naam.
 
 ![](Screenshots/EnvironmentJumper02.png)
@@ -81,5 +81,31 @@ if (collision.transform.CompareTag("Obstacle"))
 
 ![](Screenshots/JumperAgent.png)
 
+## Unity
 
+### Stap 1
+1. Ga naar "Prefabs" in "Assets" folder.
+2. Maak een Prefab van "JumperEnvironment" door dit te slepen naar de Prefab folder.
+3. Dupliceer Obstacle prefab en verander het eerste naar "BadObstacle" en de tweede naar "GoodObstacle".
+4. Selecteer de "JumperEnvironment" en sleep de BadObstacle prefab naar input van de "Environment Jumper (Script)". Doe dit hetzelfde voor de GoodObstacle prefab.
+
+![](Screenshots/UnityObstaclePrefab.png)
+
+### Stap 2
+1. Ga naar de folder "Materials" en sleep "GoodMaterial" naar de Shader in de GoodObstacle prefab.
+2. Verander de tag van "Obstacle" naar "GoodObstacle".
+3. Voeg de "GoodObstactleMove.cs" script naar de GoodObstacle prefab.
+
+![](Screenshots/UnityGoodObstacleInspector.png)
+
+### Stap 3
+
+
+
+
+
+
+
+
+## Tensorboard
 
