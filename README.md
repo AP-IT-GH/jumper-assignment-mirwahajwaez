@@ -99,11 +99,20 @@ if (collision.transform.CompareTag("Obstacle"))
 ![](Screenshots/UnityGoodObstacleInspector.png)
 
 ### Stap 3
+1. Dupliceer JumperEnvironment en plaats ze ver uit elkaar.
 
+![](Screenshots/DupliceerJumperEnvironment.png)
 
+### Stap 4
+1. Selecteer de Agent object in de JumperEnvironment.
+2. In de Inspector ga je naar de Behavior Parameters en klik je op het ronde icoontje bij het attribuut Model.
+3. En hier selecteer je "none" en dan sluit je het NNModel.
 
+Zo kunnen we de Agent vanaf scratch laten trainen.
 
+![](Screenshots/UnityNeuralNetworkSetup.png)
 
+### Stap 5
 
 
 
