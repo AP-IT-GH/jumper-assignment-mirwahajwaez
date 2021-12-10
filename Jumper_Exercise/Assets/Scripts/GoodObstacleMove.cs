@@ -5,11 +5,8 @@ using UnityEngine;
 
 public class GoodObstacleMove : MonoBehaviour
 {
-
     [SerializeField]
     private float speed = 4f;
-
-    
 
     private JumperAgent agent;
     // Start is called before the first frame update
@@ -26,7 +23,6 @@ public class GoodObstacleMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         transform.localPosition += new Vector3(speed * Time.deltaTime, 0, 0);
     }
 
@@ -39,7 +35,5 @@ public class GoodObstacleMove : MonoBehaviour
             Destroy(this.gameObject);
             // agent.EndEpisode();
         }
-            
-       
     }
 }

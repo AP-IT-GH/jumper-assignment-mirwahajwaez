@@ -36,8 +36,10 @@ public class EnvironmentJumper : MonoBehaviour
     {
         while (true)
         {
-            float result = Random.Range(0, 2);
+            //Toegevoegd
+            float result = Random.Range(0, 2); 
             Debug.Log(result);
+
             float r = Random.Range(2f, 5.0f);
             yield return new WaitForSeconds(r);
             if (canSpawnObstacles)
