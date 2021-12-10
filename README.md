@@ -14,10 +14,12 @@
 
 Om de opdracht tot een goed einde te brengen dien je eerst de volgende github repository te downloaden: 
 https://github.com/tomptrs/MLAgents-Klas-Voorbeeld/tree/master
+
+## Unity Project
+
 ### Stap 1
 
 Wij stellen voor om als eerste stap een aantal voorbeelden te bekijken om zo inspiratie op te doen.
-
 
 ### Stap 2
 
@@ -31,8 +33,9 @@ In de assets folder ga open je "Jumper" scene.
 
 Daarna ga je in de hierarchie de environment game object veranderen naar "JumperEnvironment"
 
-### Stap 5 
+## Scripts
 
+### Stap 1
 In de JumperEnvironment veranderen we de script "EnvironmentJumper.cs", dubbelklik op "EnvironmentJumper.cs" en open dat in Visual Studio
 ![](Screenshots/DubbelklikEnvironmentJumperCs.png)
 
