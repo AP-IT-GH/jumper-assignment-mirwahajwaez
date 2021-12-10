@@ -37,6 +37,7 @@ Daarna ga je in de hierarchie de environment game object veranderen naar "Jumper
 
 ### Stap 1
 In de JumperEnvironment veranderen we de script "EnvironmentJumper.cs", dubbelklik op "EnvironmentJumper.cs" en open dat in Visual Studio
+
 ![](Screenshots/DubbelklikEnvironmentJumperCs.png)
 
 ### Stap 2
@@ -132,12 +133,31 @@ Selecteer de "Environments". Ga dan naar "unity_rl" en open dit in terminal.
 
 ![](Screenshots/AnacondaRunningJumperTest.png)
 
-### Stap 4
-
-
-
 ## Tensorboard
 
+### Stap 1
+- Als de learning voltooid is m.a.w. dat de agent zijn training heeft vervolledigd. Gaan we de dit op TensorBoard laten zien.
+- Run deze commando in de terminal `tensorboard --logdir results`.
+- Dan gaat de terminal een url meegeven met de gegevens om lokaal te hosten.
+- Kopieer deze url.
+
+![](Screenshots/TensorBoardCommand.png)
+
+### Stap 2
+- Open je browser, plak dat url.
+- Dan zie je de een preview van de resultaten die je hebt gerund.
+- Links kan je de resultaten filteren.
+- En als je op die fullscreen drukt bij Cumulatieve Reward dan vergroot je de grafiek.
+
+![](Screenshots/TensorBoardPreview.png)
+
+- Dit is de Cumulatieve Reward van Jumper01
+
+![](Screenshots/TensorBoardPreviewJumper01.png)
+
+- Dit is de Cumulatieve Reward van Jumper02
+
+![](Screenshots/TensorBoardPreviewJumper02.png)
 
 
 
