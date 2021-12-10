@@ -187,7 +187,7 @@ behaviors:
 ## Resultaten
 
 - Dit is de Cumulatieve Reward van Jumper01:\
-Deze Agent heeft de AddReward(1f) bewerking wanneer de Agent tegen het groene balkje botst.
+Deze Agent heeft de AddReward(1f) bewerking wanneer de Agent tegen het groene balkje botst. De nieuwe wijziging van Jumper02 zit er niet in.
 
 ![](Screenshots/TensorBoardPreviewJumper01.png)
 
