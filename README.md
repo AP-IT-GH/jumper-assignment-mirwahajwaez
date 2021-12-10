@@ -3,6 +3,13 @@
 ## Nabil El Moussaoui & Mirwahaj Waez
 
 
+## Benodigdheden:
+-   Unity
+-   Visual Studio
+-   Pytorch
+-   Anaconda
+-   ML-Agents release 2.0.0
+
 ### Verloop van het spel:
 
 Om de opdracht tot een goed einde te brengen dien je eerst de volgende github repository te downloaden: 
@@ -21,4 +28,11 @@ Open de 'MLAgents-Klas-Voorbeeld' in Unity Hub en ga naar de folder Assets.
 In de assets folder ga open je "Jumper" scene.
 
 ### Stap 4
+
+Daarna ga je in de hierarchie de environment game object veranderen naar "JumperEnvironment"
+
+### Stap 5 
+
+In de JumperEnvironment:
+hier veranderen we de script "EnvironmentJumper.cs" 
 
