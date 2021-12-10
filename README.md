@@ -41,7 +41,11 @@ In de JumperEnvironment veranderen we de script "EnvironmentJumper.cs", dubbelkl
 
 ![](Screenshots/EnvironmentJumper01.png)
 
-![](Screenshots/EnvironmentJumper02.png)
+![](Screenshots/ObstacleMove.png)
+
+![](Screenshots/ObstacleGoodMove.png)
+
+![](Screenshots/JumperAgent.png)
 
 
 
