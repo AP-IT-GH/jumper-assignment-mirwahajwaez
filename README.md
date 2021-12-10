@@ -112,9 +112,33 @@ Zo kunnen we de Agent vanaf scratch laten trainen.
 
 ![](Screenshots/UnityNeuralNetworkSetup.png)
 
-### Stap 5
+## Anaconda
+
+### Stap 1
+Open Anaconda
+
+![](Screenshots/OpenAnaconda.png)
+
+### Stap 2
+Selecteer de "Environments". Ga dan naar "unity_rl" en open dit in terminal.
+
+![](Screenshots/AnacondaOpenTerminal.png)
+
+### Stap 3
+- Navigeer naar "./Jumper_Exercise/Assets/Learning"
+- Run dan deze commando `mlagents-learn Mover.yaml --run-id [NAAM]`
+- De `[NAAM]` mag je zelf kiezen bijvoorbeeld `jumperTest`.
+- Als je Unity ziet en als de terminal begint te luisteren `[INFO] Listening on port [PORT]. Start training by pressing the Play button in the Unity editor.` Moet je dan op de Play button drukken. Dan begint de training van jouw Agent.
+
+![](Screenshots/AnacondaRunningJumperTest.png)
+
+### Stap 4
 
 
 
 ## Tensorboard
+
+
+
+
 
