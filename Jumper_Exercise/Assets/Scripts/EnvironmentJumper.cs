@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class EnvironmentJumper : MonoBehaviour
 {
+    //Toegevoegd en aangepast
     public GameObject BadObstaclePrefab;
     public GameObject GoodObstaclePrefab;
+
     public GameObject Obstacles;
     public bool canSpawnObstacles = true;
     
@@ -39,6 +41,8 @@ public class EnvironmentJumper : MonoBehaviour
             float r = Random.Range(2f, 5.0f);
             yield return new WaitForSeconds(r);
             if (canSpawnObstacles)
+
+                //Toegevoegd
                 if (result == 0)
                     SpawnBadObstacle();
                 else
@@ -48,6 +52,7 @@ public class EnvironmentJumper : MonoBehaviour
 
     //Spawn every X seconds
 
+    //Toegevoegd en aangepast
     public void SpawnBadObstacle()
     {
         GameObject newBadObstacle = Instantiate(BadObstaclePrefab.gameObject);
