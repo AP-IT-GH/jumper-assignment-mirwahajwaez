@@ -85,6 +85,12 @@ public class JumperAgent : Agent
             Destroy(collision.gameObject);
             AddReward(-1f);           
         }
+        if (collision.transform.CompareTag("GoodObstacle"))
+        {
+            Debug.Log("collide with obstacle");
+            Destroy(collision.gameObject);
+            AddReward(1f);
+        }
         /*if (collision.transform.CompareTag("HiddenCollider"))
         {
             Debug.Log("collide with hidden collider");
