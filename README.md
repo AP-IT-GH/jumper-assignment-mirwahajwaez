@@ -198,4 +198,4 @@ Deze Agent heeft ook de AddReward(-1f) bewerking wanneer het groene balkje tegen
 
 ## Conclusie
 
-
+We kunnen uit de tensorboard van Jumper01 en Jumper02 afleiden dat Jumper02 op langere termijn, als die voltraind is, betere rewards haalt en geen pull-backs meer heeft vergeleken met Jumper01.
