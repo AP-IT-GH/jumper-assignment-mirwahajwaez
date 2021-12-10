@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumperEnvironment (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
 --- !u!1001 &221718881
@@ -234,6 +238,10 @@ PrefabInstance:
     - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
       propertyPath: m_Name
       value: JumperEnvironment (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
@@ -292,6 +300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumperEnvironment (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
 --- !u!1001 &894403405
@@ -348,6 +360,10 @@ PrefabInstance:
     - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
       propertyPath: m_Name
       value: JumperEnvironment (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
@@ -406,6 +422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumperEnvironment (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
 --- !u!1001 &1386840058
@@ -462,6 +482,10 @@ PrefabInstance:
     - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
       propertyPath: m_Name
       value: JumperEnvironment (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
@@ -696,6 +720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumperEnvironment (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
 --- !u!1001 &2054157651
@@ -752,6 +780,10 @@ PrefabInstance:
     - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
       propertyPath: m_Name
       value: JumperEnvironment (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 965708720681781474, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
