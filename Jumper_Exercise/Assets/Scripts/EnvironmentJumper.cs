@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class EnvironmentJumper : MonoBehaviour
 {
-    public GameObject ObstaclePrefab;
+    public GameObject BadObstaclePrefab;
+    public GameObject GoodObstaclePrefab;
     public GameObject Obstacles;
     public bool canSpawnObstacles = true;
     
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,32 +34,46 @@ public class EnvironmentJumper : MonoBehaviour
     {
         while (true)
         {
+            float result = Random.Range(0, 2);
+            Debug.Log(result);
             float r = Random.Range(2f, 5.0f);
-            yield return new WaitForSeconds(r); 
-            if(canSpawnObstacles)
-               SpawnObstacle();
+            yield return new WaitForSeconds(r);
+            if (canSpawnObstacles)
+                if (result == 0)
+                    SpawnBadObstacle();
+                else
+                    SpawnGoodObstacle();
         }
     }
 
     //Spawn every X seconds
 
-    public void SpawnObstacle()
+    public void SpawnBadObstacle()
     {
-        GameObject newObstacle = Instantiate(ObstaclePrefab.gameObject);
+        GameObject newBadObstacle = Instantiate(BadObstaclePrefab.gameObject);
 
-        newObstacle.transform.SetParent(Obstacles.transform);
+        newBadObstacle.transform.SetParent(Obstacles.transform);
         // float rx = Random.Range(-4f, 4);
         // float rz = Random.Range(-4f, 2);
-        newObstacle.transform.localPosition = new Vector3(-8, 0.5f, 0);
+        newBadObstacle.transform.localPosition = new Vector3(-8, 0.5f, 0);
+    }
+
+    public void SpawnGoodObstacle()
+    {
+        GameObject newGoodObstacle = Instantiate(GoodObstaclePrefab.gameObject);
+
+        newGoodObstacle.transform.SetParent(Obstacles.transform);
+        // float rx = Random.Range(-4f, 4);
+        // float rz = Random.Range(-4f, 2);
+        newGoodObstacle.transform.localPosition = new Vector3(-8, 0.5f, 0);
     }
 
     public void ClearEnvironment()
     {        
-        foreach (Transform obstacle in Obstacles.transform)
+        foreach (Transform anyObstacle in Obstacles.transform)
         {
-            GameObject.Destroy(obstacle.gameObject);
+            GameObject.Destroy(anyObstacle.gameObject);
         }
-
         canSpawnObstacles = true;
     }
 }

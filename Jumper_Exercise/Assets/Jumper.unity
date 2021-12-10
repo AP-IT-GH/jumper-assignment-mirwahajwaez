@@ -1124,6 +1124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObstaclePrefab: {fileID: 6076760962618367781, guid: 1acdca93fa6aa824ca0acf9a7f92f6bc, type: 3}
+  BonusObstaclePrefab: {fileID: 0}
   Obstacles: {fileID: 0}
   canSpawnObstacles: 1
 --- !u!4 &713346174
@@ -1194,6 +1195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObstaclePrefab: {fileID: 6076760962618367781, guid: 1acdca93fa6aa824ca0acf9a7f92f6bc, type: 3}
+  BonusObstaclePrefab: {fileID: 6076760962618367781, guid: ecb007a6acfcf5f43bfb0e279ed5d372, type: 3}
   Obstacles: {fileID: 0}
   canSpawnObstacles: 1
 --- !u!1 &719012032
@@ -1322,6 +1324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObstaclePrefab: {fileID: 6076760962618367781, guid: 1acdca93fa6aa824ca0acf9a7f92f6bc, type: 3}
+  BonusObstaclePrefab: {fileID: 0}
   Obstacles: {fileID: 0}
   canSpawnObstacles: 1
 --- !u!4 &727842083
@@ -2013,6 +2016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObstaclePrefab: {fileID: 6076760962618367781, guid: 1acdca93fa6aa824ca0acf9a7f92f6bc, type: 3}
+  BonusObstaclePrefab: {fileID: 0}
   Obstacles: {fileID: 0}
   canSpawnObstacles: 1
 --- !u!4 &1186209811
