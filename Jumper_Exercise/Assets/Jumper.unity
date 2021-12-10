@@ -1209,5 +1209,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumperEnvironment
       objectReference: {fileID: 0}
+    - target: {fileID: 965708721490081500, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05bc3a8dad99e8e4eaeabe0d71a34564, type: 3}

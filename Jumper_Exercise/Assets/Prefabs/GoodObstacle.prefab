@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6076760962618367786}
   - component: {fileID: 6076760962618367785}
   - component: {fileID: 6076760962618367784}
-  - component: {fileID: 6076760962618367783}
+  - component: {fileID: 3930709743724139413}
   - component: {fileID: 6076760962618367787}
   m_Layer: 0
   m_Name: GoodObstacle
@@ -97,7 +97,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6076760962618367783
+--- !u!114 &3930709743724139413
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6076760962618367781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfcf48cf98c234f45b4a2e580a084241, type: 3}
+  m_Script: {fileID: 11500000, guid: 39ee161e1c47278459abb5423c078efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
