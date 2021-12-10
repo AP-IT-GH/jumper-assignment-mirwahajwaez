@@ -151,14 +151,51 @@ Selecteer de "Environments". Ga dan naar "unity_rl" en open dit in terminal.
 
 ![](Screenshots/TensorBoardPreview.png)
 
-- Dit is de Cumulatieve Reward van Jumper01
+## Configuratie
+Voor de configuratie van onze `.yaml` file hebben we de huidige `Mover.yaml` gebruikt. De .yaml file gebruiken we om onze Agent te laten trainen op een zorgvuldige manier. Hieronder hebben we enkele configuraties waarvan max_steps laat tonen wanneer de training stopt. De summary_freq geeft de hoeveelheid stappen moet zich voordoen en waarbij we telkens daarop feedback krijgen hoe onze Reward verloopt. De informatie voor elke attribuut en parameters kunnen we hier terugvinden: [Training Configuration File](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md).
+
+```yaml
+behaviors:
+  Mover:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 32
+      buffer_size: 2048
+      learning_rate: 0.0003
+      beta: 0.005
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: false
+      hidden_units: 20
+      num_layers: 1
+      vis_encode_type: simple
+    reward_signals:
+      extrinsic:
+        gamma: 0.9
+        strength: 1.0
+    keep_checkpoints: 5
+    max_steps: 500000
+    time_horizon: 3
+    summary_freq: 2000
+    threaded: true
+```
+
+
+## Resultaten
+
+- Dit is de Cumulatieve Reward van Jumper01:\
+Deze Agent heeft de AddReward(1f) bewerking wanneer de Agent tegen het groene balkje botst.
 
 ![](Screenshots/TensorBoardPreviewJumper01.png)
 
-- Dit is de Cumulatieve Reward van Jumper02
+- Dit is de Cumulatieve Reward van Jumper02:\
+Deze Agent heeft ook de AddReward(-1f) bewerking wanneer het groene balkje tegen de muur botst.
 
 ![](Screenshots/TensorBoardPreviewJumper02.png)
 
-
+## Conclusie
 
 
